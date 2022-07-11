@@ -19,7 +19,7 @@ const ToggleNewGoal = () => {
   return (
     <>
         <Wrap>
-          <Button primary onClick={addModal}>Добавить расходы</Button>
+          <Button primary onClick={addModal}>Добавить цель</Button>
       </Wrap>
     </>
   );
