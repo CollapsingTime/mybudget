@@ -10,7 +10,7 @@ const config = {
 };
 
 const proConfig = {
-  connectionString: process.env.DATABASE_URL,
+  connectionString: process.env.HEROKU_POSTGRESQL_MAROON_URL,
   ssl: {
       rejectUnauthorized: false,
   }
