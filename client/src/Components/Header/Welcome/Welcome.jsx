@@ -22,11 +22,6 @@ const Welcome = () => {
         </WelcomeSubheading>
       </RowOne>
       <RowTwo>
-        <ContactBtn>
-          <OutlineButton primary href="https://github.com/CollapsingTime">
-            Контакты
-          </OutlineButton>
-        </ContactBtn>
         <Embed />
       </RowTwo>
     </Container>
