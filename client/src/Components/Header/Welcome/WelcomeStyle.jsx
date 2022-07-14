@@ -13,15 +13,11 @@ export const Container = styled.nav`
 
 export const RowOne = styled.div``;
 export const RowTwo = styled.div`
-  display: grid;
-  grid-template-areas: "button1 img button2";
+  display: flex;
   align-items: center;
   margin-bottom: 60px;
   @media ${device.laptop} {
-    display: grid;
-    grid-template-areas:
-      "img img"
-      "button1 button2";
+    display: flex;
     align-items: center;
   } ;
 `;
