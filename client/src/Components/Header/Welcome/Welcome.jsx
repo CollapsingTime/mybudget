@@ -5,7 +5,6 @@ import {
   Container,
   RowOne,
   RowTwo,
-  ExploreBtn,
   ContactBtn,
   WelcomeHeading,
   WelcomeSubheading,
@@ -23,11 +22,6 @@ const Welcome = () => {
         </WelcomeSubheading>
       </RowOne>
       <RowTwo>
-        <ExploreBtn>
-          <Link spy={true} smooth={true} to="HomePage">
-            <OutlineButton href="homepage">Обзор</OutlineButton>
-          </Link>
-        </ExploreBtn>
         <ContactBtn>
           <OutlineButton primary href="https://github.com/CollapsingTime">
             Контакты
