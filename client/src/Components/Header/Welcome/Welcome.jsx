@@ -25,7 +25,7 @@ const Welcome = () => {
       <RowTwo>
         <ExploreBtn>
           <Link spy={true} smooth={true} to="MainPage">
-            <OutlineButton href="#mainPage">Обзор</OutlineButton>
+            <OutlineButton href="#MainPage">Обзор</OutlineButton>
           </Link>
         </ExploreBtn>
         <ContactBtn>
