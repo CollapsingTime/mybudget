@@ -31,9 +31,9 @@ export const ExploreBtn = styled.div`
 `;
 
 export const ContactBtn = styled.div`
-  grid-area: button2;
+  display: flex;
   @media ${device.laptop} {
-    grid-area: button2;
+    display: flex;
     margin-top: 50px;
   }
 `;
