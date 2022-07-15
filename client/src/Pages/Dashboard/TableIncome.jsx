@@ -162,7 +162,7 @@ const TableIncome = ({ incomes, currency, setIncomes }) => {
                 <Input
                   required
                   type="number"
-                  name="expense_amount"
+                  name="income_amount"
                   min="0.01"
                   step="0.01"
                   value={selectedIncome.income_amount}
@@ -172,7 +172,7 @@ const TableIncome = ({ incomes, currency, setIncomes }) => {
               <Td data-label="Описание">
                 <Input
                   required
-                  name="expense_description"
+                  name="income_description"
                   type="text"
                   value={selectedIncome.income_description}
                   onChange={(e) => updateField(e)}
@@ -181,7 +181,7 @@ const TableIncome = ({ incomes, currency, setIncomes }) => {
               <Td data-label="Категория">
                 <Input
                   required
-                  name="expense_category"
+                  name="income_category"
                   type="text"
                   value={selectedIncome.income_category}
                   onChange={(e) => updateField(e)}
