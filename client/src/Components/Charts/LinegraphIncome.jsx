@@ -106,10 +106,6 @@ const LineGraphIncome = ({ incomes, currency }) => {
 
   return (
     <>
-      <TextContainer>
-        <H3>{` ${currency} ${spentInTotal.toFixed(2)}`}</H3>
-        Суммарный доход
-      </TextContainer>
       <GraphWrapper>
         <Line options={options} data={data} />
       </GraphWrapper>
